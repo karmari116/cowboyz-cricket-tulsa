@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cowboyz Cricket Club | Premier Cricket Team in Tulsa, OK</title>
+    <meta name="description"
+        content="Cowboyz Cricket Club is Tulsa's premier cricket team. We welcome new players and fans to watch exciting T20 matches at Terwilliger Park. Join our community!">
+    <meta name="keywords"
+        content="Cowboyz Cricket Club, Tulsa cricket, Oklahoma cricket, cricket club Tulsa, cricket team Oklahoma, Two-State Cricket League, learn cricket Tulsa, sports in Tulsa, T20 cricket">
+    <meta name="author" content="Cowboyz Cricket Club">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cowboyz-cricket-tulsa.netlify.app/">
+    <meta property="og:title" content="Cowboyz Cricket Club | Premier Cricket Team in Tulsa, OK">
+    <meta property="og:description"
+        content="Join Cowboyz Cricket Club, Tulsa's premier cricket team. Watch live matches at Terwilliger Park or join the team! Free for the community.">
+    <meta property="og:image" content="https://cowboyz-cricket-tulsa.netlify.app/cowboyz-logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cowboyz-cricket-tulsa.netlify.app/">
+    <meta property="twitter:title" content="Cowboyz Cricket Club | Tulsa, OK">
+    <meta property="twitter:description"
+        content="Tulsa's premier cricket team. Come watch the action at Terwilliger Park!">
+    <meta property="twitter:image" content="https://cowboyz-cricket-tulsa.netlify.app/cowboyz-logo.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #FF6600 0%, #FF8533 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: #555;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section h2 {
+            color: #FF6600;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #FF8533;
+            padding-bottom: 0.5rem;
+        }
+
+        .achievements {
+            background: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .achievements ul {
+            list-style: none;
+            padding: 1rem 0;
+        }
+
+        .achievements li {
+            padding: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+
+        .achievements li:before {
+            content: "🏆 ";
+            margin-right: 0.5rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .gallery-item {
+            background: #e0e0e0;
+            height: 200px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-style: italic;
+        }
+
+        .sponsors {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .sponsor-card {
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sponsor-card h3 {
+            color: #FF6600;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .info-box {
+            background: #FFF5E6;
+            padding: 1.5rem;
+            border-left: 4px solid #FF6600;
+            margin: 1rem 0;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsTeam",
+      "name": "Cowboyz Cricket Club",
+      "sport": "Cricket",
+      "location": {
+        "@type": "Place",
+        "name": "Terwilliger Park",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5902 W 10th St",
+          "addressLocality": "Tulsa",
+          "addressRegion": "OK",
+          "postalCode": "74127",
+          "addressCountry": "US"
+        }
+      },
+      "areaServed": "Tulsa",
+      "url": "https://cowboyz-cricket-tulsa.netlify.app/",
+      "logo": "https://cowboyz-cricket-tulsa.netlify.app/cowboyz-logo.png",
+      "description": "Tulsa's premier cricket team competing in the Two-State Cricket League. Welcoming new players and fans."
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center; position: relative;">
+            <img src="cowboyz-logo.png" alt="Cowboyz Cricket Club Logo" style="height: 180px; margin-right: 2rem;">
+            <div style="text-align: center;">
+                <h1 style="margin-bottom: 0.5rem;">Cowboyz Cricket Club</h1>
+                <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">Promoting Cricket in Tulsa, Oklahoma</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#new-to-cricket">New to Cricket?</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Cowboyz Cricket Club is a Tulsa, Oklahoma registered sports club with a mission to promote the game of
+                cricket in Tulsa by involving both novice and experienced members in practice and match situations.</p>
+
+            <p style="margin-top: 1rem;">We participate in the Two-State Cricket League every year, competing in both
+                T35 overs and T20 formats. Our matches take us across different cities including Oklahoma City, Wichita
+                (Kansas), and Tulsa (Oklahoma). Our home ground is located at Terwilliger Park, 5902 W 10th St, Tulsa,
+                OK 74127.</p>
+
+            <p style="margin-top: 1rem;">We welcome everyone from the Tulsa community! Whether you're a local resident,
+                a student, or new to the area, our club is open to all cricket enthusiasts. We especially encourage
+                Tulsa locals and students from universities across the Tulsa area to join us. Students from Oklahoma
+                State University and other local institutions participate every year, bringing fresh energy and talent
+                to our team.</p>
+
+            <div class="info-box">
+                <strong>League:</strong> Two-State Cricket League (TSCL)<br>
+                <strong>Teams:</strong> 13 teams from Oklahoma and Kansas<br>
+                <strong>Formats:</strong> T35 overs and T20<br>
+                <strong>Home Ground:</strong> Terwilliger Park, 5902 W 10th St, Tulsa, OK 74127<br>
+                <strong>Match Cities:</strong> Oklahoma City, Wichita (KS), Tulsa (OK)<br>
+                <strong>Open to:</strong> Tulsa residents, local students, and all community members<br>
+                <strong>Live Scores:</strong> <a href="https://cricclubs.com/TSCL1" target="_blank"
+                    style="color: #FF6600;">cricclubs.com/TSCL1</a><br>
+                <strong>TSCL Website:</strong> <a href="https://www.tscl.us/" target="_blank"
+                    style="color: #FF6600;">www.tscl.us</a>
+            </div>
+        </section>
+
+        <section id="new-to-cricket" class="section">
+            <h2>New to Cricket?</h2>
+            <div style="background: #e6f7ff; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #0077b6;">
+                <h3 style="color: #0077b6; margin-bottom: 0.5rem;">A Global Sport, Right Here in Tulsa!</h3>
+                <p style="margin-bottom: 1rem;">Often called the "gentleman's game," cricket is one of the most popular
+                    sports in the world. It shares many similarities with baseball—batting, fielding, and scoring
+                    runs—but with its own unique strategy and excitement.</p>
+                <p><strong>Never seen a match?</strong> Come join us at Terwilliger Park! It's completely
+                    <strong>FREE</strong> to watch. We love explaining the game to newcomers. Bring a chair, enjoy the
+                    outdoors, and experience the thrill of T20 cricket.</p>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <h2>Our Achievements</h2>
+            <p style="margin-bottom: 1rem;">All achievements in T35 overs format:</p>
+            <div class="achievements">
+                <ul>
+                    <li>Runners-up - 2025 Season</li>
+                    <li>Runners-up - 2017 Season</li>
+                    <li>Champions - 2015 Season</li>
+                    <li>Runners-up - 2013 Season (First finals since 2003!)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="coaches" class="section">
+            <h2>Our Coaches & Players</h2>
+
+            <div style="background: #FFF5E6; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                <h3 style="color: #FF6600; margin-bottom: 1rem;">Premier League Experience</h3>
+                <p style="margin-bottom: 1rem;">Special mention to our players from Bentonville, Arkansas, who
+                    participate in our league. <strong>Arshdeep Brar</strong>, who has captained teams in Chandigarh,
+                    India and played in the Karnataka Premier League at a very high level, is now playing for our team.
+                    He coaches other players in batting, bowling, and fielding. <strong>Jindhu Brar</strong> coaches
+                    players on six-hitting skills.</p>
+                <p>It's a great opportunity to learn from premier players who support our club in every way.</p>
+            </div>
+
+            <div style="background: #FFF5E6; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                <h3 style="color: #FF6600; margin-bottom: 1rem;">Practice Sessions</h3>
+                <p style="margin-bottom: 1rem;">Weekly once we also practice at Terwilliger ground and practice
+                    coordinator is <strong>Lakshmi Narayanan</strong>. He is a bowling all-rounder and helps the club in
+                    all possible ways before and after the game with admin work, ordering food, and more.</p>
+                <p>Without his help, conducting home or away games would not run as smoothly. His dedication ensures
+                    everything is organized both on and off the field.</p>
+            </div>
+
+            <div style="background: #FFF5E6; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                <h3 style="color: #FF6600; margin-bottom: 1rem;">Club Leadership & Dedication</h3>
+                <p style="margin-bottom: 1rem;">Special mention to <strong>Dhananjay Dhane</strong>, who has been a huge
+                    pillar of support for the club. As Vice President and an all-rounder, he helps with managing the
+                    club and players, contributing both on and off the field.</p>
+                <p style="margin-bottom: 1rem;">We have dedicated players who have been with the club since 2012 when we
+                    started, demonstrating their commitment to the sport. Senior players like <strong>Karthik
+                        Mariyappan, Surya Chavali, Swapnil Sankaye, Palgunan Kalyanamraman, Niranjan Reddy, Pradeep,
+                        Shieraam, Zaid Sheikh, and Gaurav Desai</strong> have been supporting the club for a long time,
+                    forming the backbone of our team.</p>
+            </div>
+
+            <div style="background: #FFF5E6; padding: 1.5rem; border-radius: 8px;">
+                <h3 style="color: #FF6600; margin-bottom: 1rem;">United by Passion</h3>
+                <p>Many players on our team travel from different cities, which is only possible because of the passion
+                    we have for this game and the unity it brings us. Cricket doesn't just bring us together—it builds
+                    lasting friendships and a strong community.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="Team-2025.png" alt="Cowboyz Cricket Club - 2025 Runners-up Team"
+                    style="width: 100%; height: auto; border-radius: 8px; grid-column: 1 / -1;">
+            </div>
+            <p style="margin-top: 1rem; text-align: center; font-weight: bold; color: #FF6600;">
+                Cowboyz Cricket Club - 2025 Season Runners-up
+            </p>
+            <p style="margin-top: 0.5rem; color: #666; font-style: italic;">
+        </section>
+
+        <section id="sponsors" class="section">
+            <h2>Our Sponsors</h2>
+            <p style="margin-bottom: 2rem;">We are grateful to our sponsors for their continued support!</p>
+            <div class="sponsors">
+                <div class="sponsor-card">
+                    <img src="integrity-ai-logo.png" alt="Integrity AI Solutions Inc"
+                        style="max-width: 120px; margin-bottom: 1rem;">
+                    <h3>Integrity AI Solutions Inc</h3>
+                </div>
+                <div class="sponsor-card">
+                    <img src="taylor-valve-logo.png" alt="Taylor Valve Technology"
+                        style="max-width: 180px; margin-bottom: 1rem;">
+                    <h3>Taylor Valve Technology</h3>
+                </div>
+                <div class="sponsor-card">
+                    <h3>GSB Trucking LLC</h3>
+                </div>
+                <div class="sponsor-card">
+                    <img src="janika-logo.png" alt="Janika LLC" style="max-width: 120px; margin-bottom: 1rem;">
+                    <h3>Janika LLC</h3>
+                </div>
+                <div class="sponsor-card">
+                    <img src="roshan-revankar-logo.png" alt="Roshan Revankar LLC"
+                        style="max-width: 150px; margin-bottom: 1rem;">
+                    <h3>Roshan Revankar LLC</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Join Our Team</h2>
+            <p style="margin-bottom: 1rem;">Interested in joining Cowboyz Cricket Club? Fill out the form below and
+                we'll get back to you!</p>
+
+            <form name="contact" method="POST" data-netlify="true"
+                style="background: #FFF5E6; padding: 2rem; border-radius: 8px; border-left: 4px solid #FF6600;">
+                <input type="hidden" name="form-name" value="contact" />
+                <div style="margin-bottom: 1rem;">
+                    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Name *</label>
+                    <input type="text" id="name" name="name" required
+                        style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem;">
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Email *</label>
+                    <input type="email" id="email" name="email" required
+                        style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem;">
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Phone</label>
+                    <input type="tel" id="phone" name="phone"
+                        style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem;">
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Message
+                        *</label>
+                    <textarea id="message" name="message" required rows="5"
+                        style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem;"></textarea>
+                </div>
+
+                <button type="submit"
+                    style="background: #FF6600; color: white; padding: 0.75rem 2rem; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; font-weight: bold;">Send
+                    Message</button>
+            </form>
+
+            <h2 style="margin-top: 2rem;">Club Leadership</h2>
+            <p style="margin-bottom: 1rem;">Or reach out directly to any of our leadership team members:</p>
+            <div class="info-box">
+                <p><strong>President:</strong> Karthik Mariyappan - karmari16@gmail.com</p>
+                <p><strong>Vice President:</strong> Dhananjay Dhane - dhananjaydhane@gmail.com</p>
+                <p><strong>Secretary:</strong> Gaurav Desai - cloudg17@gmail.com</p>
+            </div>
+
+            <h2 style="margin-top: 2rem;">Contact Information</h2>
+            <div class="info-box">
+                <p><strong>Email:</strong> karmari16@gmail.com</p>
+                <p><strong>Phone:</strong> (405) 385-4662</p>
+                <p><strong>Address:</strong> 12319 S 102nd East Ave, Bixby, OK 74008</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cowboyz Cricket Club. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
