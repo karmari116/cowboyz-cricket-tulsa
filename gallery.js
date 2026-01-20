@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const filename = fullPath.substring(fullPath.lastIndexOf('/') + 1);
 
             // Display filename so user knows what to delete
-            captionText.innerHTML = `Filename: <span style="color: white; font-weight: bold;">${filename}</span><br><small>(Look for this file in your folder to delete it)</small>`;
+            captionText.innerHTML = `<span style="color: #bbb; font-size: 0.9rem;">${filename}</span>`;
         });
     });
 
