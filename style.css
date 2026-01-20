@@ -9,11 +9,12 @@ body {
 }
 
 /* Header & Nav */
-background-color: #FF6600;
-/* Cowboyz Orange */
-color: white;
-padding: 1rem 0;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+header {
+    background-color: #FF6600;
+    /* Cowboyz Orange */
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
